@@ -22,7 +22,7 @@ describe("weather",  () => {
     });
     it("should return undefined for a non-existing location or postal", done => {
       weather.getCurrentTimeWeather("Blablabla", result => {
-        expect(result).toEqual(undefined);
+        expect(result).toEqual(`Blablabla - no data`);
         done();
       })
     });

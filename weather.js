@@ -12,7 +12,7 @@ const getCurrentTimeWeather = (locationNameOrPostalCode, callback) => {
                 return callback(currentTimeWeather) 
                 
             }else{
-                callback()
+                callback(`${locationNameOrPostalCode} - no data`)
             }     
         }
     })
