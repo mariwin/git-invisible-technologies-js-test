@@ -1,0 +1,41 @@
+{
+  "name": "git-weather",
+  "version": "1.0.0",
+  "description": "",
+  "main": "weather.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node weather.js",
+    "test": "jest --coverage --watchAll --config ./jest.config.json",
+    "test:watch": "npm run test -- --watchAll"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/runtime": "^7.10.2",
+    "@types/jest": "^25.2.3",
+    "nodemon": "^2.0.4",
+    "react-hot-loader": "^4.12.21",
+    "ts-jest": "^26.1.0",
+    "weather-js": "^2.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/plugin-proposal-export-default-from": "^7.10.1",
+    "@babel/plugin-transform-runtime": "^7.10.1",
+    "@babel/polyfill": "^7.0.0",
+    "@babel/preset-env": "^7.10.2",
+    "@babel/preset-react": "^7.10.1",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-eslint": "^9.0.0",
+    "babel-jest": "^26.0.1",
+    "babel-loader": "^7.1.5",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "jest": "^26.0.1",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  }
+}

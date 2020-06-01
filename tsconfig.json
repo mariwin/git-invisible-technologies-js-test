@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "pretty": true,
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "target": "es6",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "resolveJsonModule": true,
+    "lib": ["es2015", "es2016", "dom", "es2017", "es6", "es5"]
+  },
+  "exclude": ["node_modules"]
+}

@@ -1,0 +1,12 @@
+{
+  "collectCoverage": true,
+  "testRegex": "((\\.|/*.)(test))\\.ts?$",
+  "moduleFileExtensions": [
+    "ts",
+    "tsx",
+    "js",
+    "jsx",
+    "json",
+    "node"
+  ]
+}
